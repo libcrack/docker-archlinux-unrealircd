@@ -1,4 +1,4 @@
-# Unreal IRCd archlinux docker container
+# Unreal IRCd Arch linux docker container
 
 Build the image:
 
