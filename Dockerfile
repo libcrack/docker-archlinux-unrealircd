@@ -7,7 +7,7 @@ RUN pacman -Syy --noconfirm && \
     echo -e "[community]\nInclude = /etc/pacman.d/mirrorlist\n" >> /etc/pacman.conf && \
     pacman -S --noconfirm archlinux-keyring && \
     pacman -S --noconfirm extra/c-ares core/curl community/unrealircd
-    # pacman-db-upgrade
+    # pacman-db-upgrade ???
 
 EXPOSE 6697
 EXPOSE 7000
