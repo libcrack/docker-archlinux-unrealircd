@@ -1,5 +1,7 @@
 # Unreal IRCd Arch linux docker container
 
+[![](https://badge.imagelayers.io/libcrack/limnoria:latest.svg)](https://imagelayers.io/?images=libcrack/archlinux-unrealircd:latest 'hub.docker.com/u/libcrack/archlinux-unrealircd')
+
 Build the image:
 
 ```bash
