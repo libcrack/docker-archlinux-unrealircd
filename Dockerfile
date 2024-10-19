@@ -9,7 +9,7 @@ RUN echo -e "[extra]\nInclude = /etc/pacman.d/mirrorlist\n" >> /etc/pacman.conf 
     pacman-db-upgrade && \
     pacman -Syy --noconfirm && \
     pacman -S --noconfirm archlinux-keyring && \
-    pacman -S --noconfirm extra/c-ares core/curl community/unrealircd
+    pacman -S --noconfirm core/curl extra/c-ares extra/unrealircd
 
 RUN groupadd unrealirc && \
     useradd -m -r -g unrealirc -d /home/unrealirc \
